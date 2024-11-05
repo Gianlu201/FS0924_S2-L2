@@ -130,35 +130,33 @@ console.log("----------------------------------------")
 /* SCRIVI QUI LA TUA RISPOSTA */
 console.log("ESERCIZIO 7");
 
+let a = 7;
+let b = 15;
+let c = 9;
 
+if (a > b && a > c) {
+  if (b > c) {
+    console.log("L'ordine decrescente dei tre numeri è: " + a, b, c);
+  } else {
+    console.log("L'ordine decrescente dei tre numeri è: " + a, c, b);
+  }
+} else if (b > a && b > c) {
+  if (a > c) {
+    console.log("L'ordine decrescente dei tre numeri è: " + b, a, c);
+  } else {
+    console.log("L'ordine decrescente dei tre numeri è: " + b, c, a);
+  }
+} else if (c > a && c > b) {
+  if (a > b) {
+    console.log("L'ordine decrescente dei tre numeri è: " + c, a, b);
+  } else {
+    console.log("L'ordine decrescente dei tre numeri è: " + c, b, a);
+  }
+} else {
+  console.log("Ricontrollare i numeri inseriti!");
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log("----------------------------------------")
 
 
 
@@ -167,12 +165,38 @@ console.log("ESERCIZIO 7");
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("ESERCIZIO 8");
+
+let numberVerify = 8;
+
+if (typeof(numberVerify) === "number") {
+  console.log("Il valore inserito è un numero");
+} else {
+  console.log("Il valore inserito NON è un numero");
+}
+
+console.log("----------------------------------------")
+
+
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("ESERCIZIO 9");
+
+let numberSeven = 6;
+
+if (numberSeven%2 === 0) {
+  console.log("Il numero " + numberSeven + " è un numero pari")
+} else {
+  console.log("Il numero " + numberSeven + " è un numero dispari");
+}
+
+console.log("----------------------------------------")
+
+
 
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
@@ -187,6 +211,18 @@ console.log("ESERCIZIO 7");
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("ESERCIZIO 10");
+
+
+
+
+
+
+
+
+
+
+
 
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
