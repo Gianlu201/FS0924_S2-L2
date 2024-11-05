@@ -126,20 +126,20 @@ let a = 7;
 let b = 15;
 let c = 9;
 
-if (a > b && a > c) {
-	if (b > c) {
+if (a >= b && a >= c) {
+	if (b >= c) {
 		console.log("L'ordine decrescente dei tre numeri è: " + a, b, c);
 	} else {
 		console.log("L'ordine decrescente dei tre numeri è: " + a, c, b);
 	}
-} else if (b > a && b > c) {
-	if (a > c) {
+} else if (b >= a && b >= c) {
+	if (a >= c) {
 		console.log("L'ordine decrescente dei tre numeri è: " + b, a, c);
 	} else {
 		console.log("L'ordine decrescente dei tre numeri è: " + b, c, a);
 	}
-} else if (c > a && c > b) {
-	if (a > b) {
+} else if (c >= a && c >= b) {
+	if (a >= b) {
 		console.log("L'ordine decrescente dei tre numeri è: " + c, a, b);
 	} else {
 		console.log("L'ordine decrescente dei tre numeri è: " + c, b, a);
