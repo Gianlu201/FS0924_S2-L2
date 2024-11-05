@@ -1,26 +1,82 @@
 /* ESERCIZIO 1
- Scrivi un algoritmo per trovare il più grande tra due numeri interi.
+  Scrivi un algoritmo per trovare il più grande tra due numeri interi.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("ESERCIZIO 1");
+
+let numberOne = 5;
+let numberTwo =7;
+
+if (numberOne > numberTwo) {
+  console.log("Il numero " + numberOne + " è più grande del numero " + numberTwo);
+} else if (numberTwo > numberOne) {
+  console.log("Il numero " + numberTwo + " è più grande del numero " + numberOne);
+} else {
+  console.log("I due numeri sono uguali");
+}
+
+console.log("----------------------------------------")
+
+
 
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("ESERCIZIO 2");
+
+let numberThree = 10;
+
+if (numberThree !== 5) {
+  console.log("not equal");
+}
+
+console.log("----------------------------------------")
+
+
 
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("ESERCIZIO 3");
+
+let numberFour = 10;
+
+if (numberFour%5 === 0) {
+  console.log("Il numero " + numberFour + " è divisibile per 5");
+} else {
+  console.log("Il numero " + numberFour + " NON è divisibile per 5")
+}
+
+console.log("----------------------------------------")
+
+
 
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("ESERCIZIO 4");
+
+let numberFive = 8;
+let numberSix = 6;
+
+if (numberFive===8 || numberSix===8) {
+  console.log("Uno dei due numeri è uguale a 8");
+} else if (numberFive+numberSix===8 || numberFive-numberSix===8) {
+  console.log("La somma o la sottrazione dei due numeri è uguale a 8");
+} else {
+  console.log("Non è possibile ricondurre i due numeri al numero 8");
+}
+
+console.log("----------------------------------------")
+
+
 
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
@@ -29,6 +85,19 @@
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("ESERCIZIO 5");
+
+let totalShoppingCart = 10;
+
+if (totalShoppingCart > 50) {
+  console.log("Hai diritto alla spedizione gratuita, il tuo carrello ammonta a: €" + totalShoppingCart);
+} else {
+  console.log("Sono state aggiunte le spese di spedizione di €10, il tuo carrello ammonta a: €" + (totalShoppingCart + 10))
+}
+
+console.log("----------------------------------------")
+
+
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
@@ -36,6 +105,21 @@
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("ESERCIZIO 6");
+
+console.log("Oggi è il Black Friday e verrà applicato uno sconto del 20% su ogni prodotto nel tuo carrello");
+
+totalShoppingCart *= 0.8;
+
+if (totalShoppingCart > 50) {
+  console.log("Hai diritto alla spedizione gratuita, il tuo carrello ammonta a: €" + totalShoppingCart);
+} else {
+  console.log("Sono state aggiunte le spese di spedizione di €10, il tuo carrello ammonta a: €" + (totalShoppingCart + 10))
+}
+
+console.log("----------------------------------------")
+
+
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
@@ -44,6 +128,39 @@
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("ESERCIZIO 7");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
